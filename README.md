@@ -1,6 +1,6 @@
 # via_cep_search
 
-A new Flutter package project.
+Package para consulta de endereço via CEP
 
 ## Getting Started
 
