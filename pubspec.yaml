@@ -1,7 +1,6 @@
 name: via_cep_search
 description: Package para consulta de endereço via cep.
 version: 1.0.0
-author: Jacob Moura <jacobaraujo7@gmail.com>
 homepage: https://github.com/Flutterando/via_cep_search
 
 environment:
