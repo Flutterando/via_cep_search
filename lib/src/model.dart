@@ -1,4 +1,3 @@
-import 'package:dio/dio.dart';
 import 'package:via_cep_search/src/viacep_repository.dart';
 
 class ViaCepSearch {

@@ -1,6 +1,6 @@
 name: via_cep_search
-description: Package para consulta de endereço via cep.
-version: 1.0.0
+description: Package para consulta de endereço via cep. Utilizado na vídeo aula da Flutterando.
+version: 1.0.1
 homepage: https://github.com/Flutterando/via_cep_search
 
 environment:
