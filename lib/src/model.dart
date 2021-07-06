@@ -1,15 +1,15 @@
 import 'package:via_cep_search/src/viacep_repository.dart';
 
 class ViaCepSearch {
-  final String cep;
-  final String logradouro;
-  final String complemento;
-  final String bairro;
-  final String localidade;
-  final String uf;
-  final String unidade;
-  final String ibge;
-  final String gia;
+  final String? cep;
+  final String? logradouro;
+  final String? complemento;
+  final String? bairro;
+  final String? localidade;
+  final String? uf;
+  final String? unidade;
+  final String? ibge;
+  final String? gia;
 
   ViaCepSearch(
       {this.cep,
@@ -50,7 +50,7 @@ class ViaCepSearch {
     return data;
   }
 
-  static Future<ViaCepSearch> getInstance(String cep) async {
+  static Future<ViaCepSearch?> getInstance(String cep) async {
     return ViaCepRepository().getViacep(cep);
   }
 }
